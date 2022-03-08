@@ -2,9 +2,9 @@
 
 current=`dirname $0`
 
-if [ -f ~/.bashrc ]; then
-	mv ~/.bashrc ~/.bashrc.orig
+if [ -f ~/.profile ]; then
+	mv ~/.profile ~/.profile.orig
 fi
 
-ln -s ${current}/.bashrc ~/.bashrc
+ln -s ${current}/.profile ~/.profile
 
